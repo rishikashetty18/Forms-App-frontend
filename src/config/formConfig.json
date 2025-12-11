@@ -1,0 +1,34 @@
+{
+  "title": "Mini Forms App ",
+
+  "questions": [
+    {
+      "id": "q_name",
+      "type": "short_text",
+      "label": "Your full name",
+      "required": true,
+      "placeholder": "Enter your name"
+    },
+    {
+      "id": "q_email",
+      "type": "short_text",
+      "label": "Email address",
+      "required": true,
+      "placeholder": "you@example.com"
+    },
+    {
+      "id": "q_fav",
+      "type": "single_choice",
+      "label": "Which tech do you prefer?",
+      "required": true,
+      "options": ["React", "Vue", "Angular", "Svelte"]
+    },
+    {
+      "id": "q_comments",
+      "type": "short_text",
+      "label": "Any comments (optional)",
+      "required": false,
+      "placeholder": "Write something..."
+    }
+  ]
+}
